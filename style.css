@@ -3,6 +3,7 @@
 
 
 
+
 *{
     box-sizing: border-box;
     font-family: 'Acme';
@@ -10,6 +11,7 @@
     padding: 0;
 
 }
+
 
 html{
     scroll-behavior: smooth;
@@ -27,15 +29,16 @@ html{
 }
 
 .contenedor-header header{
-    max-width: 1100px;
+    max-width: 65.5rem;
     margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 20px;
+    padding: 0.9rem 1.25rem;
 }
 
 .contenedor-header header .logo a{
+    display: grid;
     font-family: 'Acme';
     font-size: 36px;
     color: #1CB698;
@@ -45,6 +48,7 @@ html{
 .contenedor-header header ul{
     display: flex;
     list-style: none;
+    flex-wrap: wrap;
 
 }
 
@@ -62,7 +66,7 @@ html{
 }
 
 .logo2{
-    color:palevioletred;
+    color:rgb(235, 160, 185);
     padding: 5px 10px;
 }
 
@@ -72,24 +76,24 @@ html{
     background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)), 
     url(img/fondo-4.jpeg);
     background-size: cover;
-    height: 100vh;
+    height: 60.5rem;
     color: #fff;
     display: flex;
     align-items: center;
 }
 
 .inicio .contenido-banner{
-    padding: 40px;
+    padding: 2.5rem;
     background-color: #132326;
-    max-width: 350px;
+    max-width: 21.8rem;
     margin:auto;
     text-align: center;
-    border-radius: 40px;
+    border-radius: 2.5rem;
 }
 
 .inicio .contenido-banner img{
- margin-top: 40px;
- border: 10px solid #1CB698;
+ margin-top: 2.5rem;
+ border: 0.6rem solid #1CB698;
  display: block;
  width: 80%;
  margin:auto;
@@ -97,13 +101,13 @@ html{
 }
 
 .inicio .contenido-banner h1{
-    margin-top: 40px;
-    font-size: 35px;
+    margin-top: 2.5rem;
+    font-size: 2.1rem;
     font-family: 'Acme';
 }
 
 .inicio .contenido-banner h2{
-    font-size: 15px;
+    font-size: 0.9rem;
     font-family: 'Karla';
 }
 
@@ -111,13 +115,13 @@ html{
 color: #fff;
 display: inline-block;
 text-decoration: none;
-border: 1px solid #fff;
+border: 0.06rem solid #fff;
 border-radius: 100%;
-width: 42px;
-height: 42px;
-line-height: 42px;
-margin: 40px 5px;
-font-size: 20px;
+width: 2.6rem;
+height: 2.6rem;
+line-height: 2.6rem;
+margin: 2.5rem 0.3rem;
+font-size: 1.25rem;
 transition: .3s;
 }
 .inicio .contenido-banner .redes a:hover {
@@ -127,24 +131,24 @@ transition: .3s;
 .sobremi{
     background-color: #1e2326;
     color: #fff;
-    padding: 50px 20px;
+    padding: 3.1rem 1.25rem;
 }
 .sobremi .contenido-seccion{
-    max-width: 1100px;
+    max-width: 65.5rem;
     margin: auto;
 }
 
 .sobremi h2{
-    font-size: 35px;
+    font-size: 1.25rem;
     font-family:'Acme';
     text-align: center;
-    padding: 20px 0;
+    padding: 1.25rem 0;
 }
 
 .sobremi .contenido-seccion p{
-    font: 18px;
-    line-height: 22px;
-    margin-bottom:20px ;
+    font: 1.125rem;
+    line-height: 1.3rem;
+    margin-bottom:1.25rem ;
     font-family: 'karla'
 }
 .sobremi .contenido-seccion p span{
@@ -154,7 +158,10 @@ transition: .3s;
 }
 
 .sobremi .fila{
-    display: flex;
+    display: grid;
+    flex-wrap: wrap;
+    margin-left: 35%;
+ 
 }
 
 .sobremi .fila .col{
@@ -162,16 +169,16 @@ transition: .3s;
 }
 
 .sobremi .fila .col h1{
-    font-size: 28px;
+    font-size: 1.75rem;
     font-family: 'Work sans';
     text-decoration: none;
 
 }
 
 .sobremi .fila .col h3{
-font-size: 28px;
+font-size: 1.75rem;
 font-family: 'Work sans';
-margin-bottom: 25px;
+margin-bottom: 1.5rem;
 }
 
 .sobremi .fila .col ul{
@@ -187,14 +194,14 @@ margin-bottom: 25px;
 .sobremi .fila .col ul li strong{
     display: inline-block;
     color: #1CB698;
-    width: 130px;
+    width: 8.1rem;
     font-family: 'work sans';
 }
 .sobremi .fila .col ul li span{
     background-color: #1CB698;
-    padding: 3px;
-    font-weight: 100px;
-    border-radius: 5px;
+    padding: 0.18rem;
+    font-weight: 6.2rem;
+    border-radius: 0.3rem;
 }
 
 .sobremi .fila .col .contenedor-intereses{
@@ -203,11 +210,11 @@ margin-bottom: 25px;
 }
 
 .sobremi .fila .col .contenedor-intereses .interes{
-    width: 100px;
-    height: 100px;
+    width: 6.2rem;
+    height: 6.2rem;
     background-color: #252A2E;
-    border-radius: 10px;
-    margin: 0 15px 15px 0;
+    border-radius: 0.6rem;
+    margin: 0 0.9rem 0.9rem 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -220,8 +227,8 @@ margin-bottom: 25px;
 }
 
 .sobremi .fila .col .contenedor-intereses .interes i{
-    font-size: 30px;
-    margin-bottom: 10px;
+    font-size: 1.8rem;
+    margin-bottom: 0.6rem;
 }
 
 /* SECCION SKILLS*/
@@ -229,65 +236,65 @@ margin-bottom: 25px;
 .skills{
     background-color: #252A2E;
     color: #fff;
-    padding: 50px 20px;
+    padding: 3.1rem 1.25rem;
 }
 .skills .contenido-seccion{
-    max-width: 1100px;
+    max-width: 65.5rem;
     margin: auto;
 }
 
 .skills h2{
-    font-size: 38px;
+    font-size: 2.3rem;
     font-family:'Acme';
     text-align: center;
-    padding: 20px 0;
+    padding: 1.25rem 0;
 }
 .skills .fila{
     display: flex;
 }
 .skills .fila col{
     width: 50%;
-    padding: 0 20px;
+    padding: 0 1.25rem;
 
 }
 .skills .fila .col h3{
-font-size: 28px;
+font-size: 1.7rem;
 font-family: 'Work sans';
-margin-bottom: 25px;
+margin-bottom: 1.5rem;
 }
 .skills .skill > span{
 font-weight: bold;
 display: block;
-margin-bottom: 10px;
+margin-bottom: 0.6rem;
 text-decoration: none;
 font-family: 'Karla';
 }
 
 .skills .skill .barra-skill{
-height: 8px;
+height: 0.5rem;
 width: 80%;
 background-color: #131517;
 position: relative;
-margin-bottom: 30px;
+margin-bottom: 1.8rem;
 }
 .skills .skill .progreso{
     background-color: #1CB698;
     position: absolute;
     top: 0;
     left: 0;
-    height: 8px;
+    height: 0.5rem;
 }
 .skills .skill .barra-skill span{
     position: absolute;
-    height: 40px;
-    width: 40px;
+    height: 2.5rem;
+    width: 2.5rem;
     background-color: #1CB698;
-    border-radius: 50px;
-    line-height: 40px;
+    border-radius: 3.1rem;
+    line-height: 2.5rem;
     text-align: center;
-    top: -17px;
-    right: -15px;
-    font-size: 14px;
+    top: -1.0rem;
+    right: -0.9rem;
+    font-size: 0.8rem;
 }
 
 /* aquí haremos que las barritas skill técnicos nos den el porcentaje*/
@@ -355,49 +362,54 @@ margin-bottom: 30px;
     background-image: url(img/fondo-1.jpeg);
     background-color: #132326;
     color:#fff;
-    padding: 50px 0;
+    padding: 3.1rem 0;
 
 }
 .contacto .contenido-seccion{
-    max-width: 1100px;
+    max-width: 65.5rem;
     margin: auto;
 }
 .contacto h2{
-    font-size: 48px;
+    margin-left: 0%;
+    margin-right: 5%;
+    font-size: 3rem;
     font-family: 'Acme';
     text-align: center;
-    padding: 20px 0;
+    padding: 1.25rem 0;
 }
 .contacto .fila{
     display: flex;
+    flex-wrap: wrap;
+    margin-left: 30%;
 
 }
 .contacto .col{
     width: 50%;
-    padding: 10px;
+    padding: 0.6rem;
     position: relative;
+   
 
 }
 .contacto .col input, .contacto .col textarea{
 display: block;
 width: 100%;
-padding: 18px;
+padding: 1.1rem;
 border: none;
-margin-bottom: 20px;
+margin-bottom: 1.25rem;
 background-color: #252A2E;
 color: #fff;
-font-size: 18px;
+font-size: 1.1rem;
 }
 
 .contacto button{
     cursor: pointer;
     background-color: transparent;
-    border: 2px solid #fff;
+    border: 0.1rem solid #fff;
     width: fit-content;
     display: block;
-    margin: 20px auto;
-    padding: 10px 22px;
-    font-size: 16px;
+    margin: 1.25rem auto;
+    padding: 0.6rem 1.3rem;
+    font-size: 1rem;
     color: #fff;
     position: relative;
     z-index: 10;
@@ -427,11 +439,11 @@ footer {
    background-color: #132326;
 }
 footer h1{
-    font-size: 15px;
+    font-size: 0.9rem;
     font-family: 'Acme';
     text-align: center;
     justify-content: center;
-    padding: 20px 0;
+    padding: 1.25rem 0;
     color: #1CB698;
     margin: auto;
     

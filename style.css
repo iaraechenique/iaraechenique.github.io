@@ -40,7 +40,7 @@ html{
 .contenedor-header header .logo a{
     display: grid;
     font-family: 'Acme';
-    font-size: 36px;
+    font-size: 2.2rem;
     color: #1CB698;
     text-decoration: none;
 }
@@ -55,8 +55,8 @@ html{
 .contenedor-header header  nav ul li a{
     text-align: none;
     color: #fff;
-    margin: 0 15px;
-    padding: 3px;
+    margin: 0 0.9rem;
+    padding: 0.3rem;
     text-decoration: none;
     font-family: 'Karla'
 }
@@ -67,7 +67,7 @@ html{
 
 .logo2{
     color:rgb(235, 160, 185);
-    padding: 5px 10px;
+    padding: 0.3rem 0.6rem;
 }
 
 /* SECCION INICIO*/
